@@ -4,14 +4,14 @@ project:
   render:
     - index.qmd
 
-    
   
 website:
   title: ""
+  search: false
 
   navbar:
     title: MGMT 767
-    search: true
+    search: false
     right:
 
       - text: Code Binder
