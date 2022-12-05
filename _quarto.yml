@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+
+    
+  
+website:
+  title: ""
+
+  navbar:
+    title: MGMT 767
+    search: true
+    right:
+
+      - text: Code Binder
+        href: https://mybinder.org/v2/gh/bbcx-investments/mgmt767-binder.git/HEAD
+
+
+format: 
+  html:
+    theme: cosmo
+    scss: styles.css
+      
+
+
+
