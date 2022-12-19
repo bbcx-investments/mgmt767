@@ -11,10 +11,9 @@ website:
   search: false
 
   navbar:
-    title: MGMT 767
+    title: MGMT 767 
     search: false
     right:
-
       - text: Code Binder
         href: https://mybinder.org/v2/gh/bbcx-investments/mgmt767-binder.git/HEAD
       - text: Slide Decks

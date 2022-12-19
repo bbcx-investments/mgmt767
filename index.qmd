@@ -1,8 +1,35 @@
-## Data-Driven Investments Lab<br>Rice University<br>Spring 2023
+## Data-Driven Investments Lab<br>Spring 2023<br><br>![](RiceBusiness-transparent-logo-sm.png){height="60"}
+
+#### Instructors
+
+[Kerry Back](http://kerryback.com)
+<br>
+J. Howard Creekmore Professor of Finance and Professor of Economics<br>
+<a href="mailto:kerryback@gmail.com">kerryback@gmail.com</a>
+
+[Kevin Crotty](https://kevincrotty.rice.edu/)
+<br>
+Associate Professor of Finance<br>
+<a href="mailto:Kevin.P.Crotty@rice.edu">Kevin.P.Crotty@rice.edu</a>
+
+
+
+#### Course Description  
 
 The goal of this course is to provide hands-on experience in designing, testing, and implementing quantitative investment strategies.  Students will be divided into teams.  Each team in conjunction with the instructors will operate as an investment fund, with the instructors being the principals.  Each student team will make a presentation weekly on ideas that they have, items that they have tested or implemented, and plans for the upcoming week, including what task each student will undertake.   The instructors will provide feedback and guidance.  Grades will be based on the weekly presentations.  The instructors will lecture occasionally on new topics they want the students to address or on python methods that are useful for the tasks to be undertaken.
 The strategies will be implemented using a daily-updated SQL database containing company financials and market data, possibly other data sources, and paper trading via the python API at Alpaca Brokerage.
 
+#### Honor Code
+
+The Rice University honor code applies to all work in this course.  Each student must do his or her own assignments, but it is allowed and in fact encouraged for students to seek advice from each other.  Likewise, groups must do their projects, but they can seek advice from students in other groups.  Also, searching for advice on the internet is allowed.
+
+
+#### Disability Accommodations
+
+Any student with a documented disability requiring accommodations in this course is encouraged to
+contact me outside of class. All discussions will remain confidential. Any adjustments or accommodations
+regarding assignments or the final exam must be made in advance. Students with disabilities
+should also contact Disability Support Services in the Allen Center.
 
 
 
