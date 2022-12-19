@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "The goal of this course is to provide hands-on experience in designing, testing, and implementing quantitative investment strategies. Students will be divided into teams. Each team in conjunction with the instructors will operate as an investment fund, with the instructors being the principals. Each student team will make a presentation weekly on ideas that they have, items that they have tested or implemented, and plans for the upcoming week, including what task each student will undertake. The instructors will provide feedback and guidance. Grades will be based on the weekly presentations. The instructors will lecture occasionally on new topics they want the students to address or on python methods that are useful for the tasks to be undertaken. The strategies will be implemented using a daily-updated SQL database containing company financials and market data and with paper trading via the python API at Alpaca Brokerage."
+  }
+]
