@@ -1,0 +1,383 @@
+---
+title:  "A First Portfolio"
+author: <br><br><br><br><span style="font-family:perpetua; font-variant:small-caps; color:#606060;">Kerry Back</span><br><br><img src="RiceBusiness-transparent-logo-sm.png"  height=80>
+execute:
+  echo: false
+  jupyter: python3
+format: 
+  revealjs:
+    highlight-style: monokai
+    code-fold: true
+    code-copy: hover
+    scrollable: true
+    slide-number: true
+    preview-links: true
+    self-contained: true
+    controls: true
+    transition: fade
+    theme: [solarized, 2023.scss]
+    incremental: true
+---
+
+##
+
+- Buy stocks of profitable companies that aren't too expensive.  Avoid large caps and penny stocks.
+  - Profitable = high income to book equity (ROE)
+  - Cost = price to book equity per share (PB)
+  - Large caps = largest 500 stocks by market cap
+  - Penny stocks = less than $5
+- This strategy has not been backtested!
+
+## Data
+
+- [Nasdaq Data Link / Sharadar Core US Equities Bundle](https://data.nasdaq.com/databases/SFA/data)
+- We can get this data from a SQL database hosted on a Rice server.
+- To access the server, you must be on the Rice network or the Rice VPN.  
+- To connect to the VPN see [this](https://oit.rice.edu/services/network-connectivity#:~:text=Connect%20to%20the%20VPN,to%20download%20the%20necessary%20software).
+
+## Connect to the SQL server in python
+
+. . .
+
+```.p
+import pandas as pd
+import pymssql
+from sqlalchemy import create_engine
+
+server = 'fs.rice.edu'
+database = 'stocks'
+username = 'stocks'
+password = '6LAZH1'
+
+string = "mssql+pymssql://" + username + ":" + password + "@" + server + "/" + database 
+conn = create_engine(string).connect()
+```
+
+## SQL queries
+
+. . .
+
+```.p
+SELECT column_name(s)
+FROM table_name
+JOIN table_name ON column_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
+
+## Grab some data from quarterly reports
+
+. . .
+
+```.p
+quarterly = pd.read_sql(
+    """
+    select datekey, reportperiod, ticker, netinc, equity
+    from sf1
+    where dimension='ARQ' and equity>0
+    order by ticker, datekey
+    """,
+    conn
+)
+quarterly = quarterly.dropna()
+```
+
+## Define ROE as net income / beginning of quarter equity
+
+. . .
+
+```.p
+quarterly["equitylag"] = quarterly.groupby("ticker").equity.shift()
+quarterly["roeq"] = quarterly.netinc / quarterly.equitylag
+
+# save last report for each firm
+quarterly = quarterly.groupby("ticker").last()
+quarterly = quarterly[quarterly.reportperiod.astype(str)>="2022-06-01"]
+
+# drop variables other than roeq and ticker (ticker=index)
+quarterly = quarterly[["roeq"]]
+```
+
+## Grab market cap, and PB from a different table
+. . .
+
+```.p
+daily1 = pd.read_sql(
+    """ 
+    select date, ticker, pb, marketcap
+    from daily 
+    where date>='2023-01-01'
+    order by ticker, date
+    """,
+    conn
+)
+daily1 = daily1.dropna()
+daily1 = daily1.groupby("ticker").last()
+```
+
+## Grab price from yet another table
+
+. . .
+
+```.p
+daily2 = pd.read_sql(
+    """ 
+    select date, ticker, close_ as price
+    from sep 
+    where date>='2023-01-01'
+    order by ticker, date
+    """,
+    conn
+)
+daily2 = daily2.dropna()
+daily2 = daily2.groupby("ticker").last()
+```
+
+## Merge data sets
+
+. . .
+
+```.p
+df = pd.concat((quarterly, daily1, daily2), axis=1)
+df.info()
+```
+
+. . .
+
+```{python}
+import pandas as pd
+import pymssql
+from sqlalchemy import create_engine
+
+server = 'fs.rice.edu'
+database = 'stocks'
+username = 'stocks'
+password = '6LAZH1'
+
+string = "mssql+pymssql://" + username + ":" + password + "@" + server + "/" + database 
+conn = create_engine(string).connect()
+
+quarterly = pd.read_sql(
+    """
+    select datekey, reportperiod, ticker, netinc, equity
+    from sf1
+    where dimension='ARQ' and equity>0
+    order by ticker, datekey
+    """,
+    conn
+)
+quarterly = quarterly.dropna()
+
+quarterly["equitylag"] = quarterly.groupby("ticker").equity.shift()
+quarterly["roe"] = quarterly.netinc / quarterly.equitylag
+
+# save last report for each firm
+quarterly = quarterly.groupby("ticker").last()
+quarterly = quarterly[quarterly.reportperiod.astype(str)>="2022-06-01"]
+
+# drop variables other than roeq and ticker (ticker=index)
+quarterly = quarterly[["roe"]]
+
+daily1 = pd.read_sql(
+    """ 
+    select date, ticker, pb, marketcap
+    from daily 
+    where date>='2023-01-01'
+    order by ticker, date
+    """,
+    conn
+)
+daily1 = daily1.dropna()
+daily1 = daily1.groupby("ticker").last()
+
+daily2 = pd.read_sql(
+    """ 
+    select date, ticker, close_ as price
+    from sep 
+    where date>='2023-01-01'
+    order by ticker, date
+    """,
+    conn
+)
+daily2 = daily2.dropna()
+daily2 = daily2.groupby("ticker").last()
+
+df = pd.concat((quarterly, daily1, daily2), axis=1)
+df.info()
+```
+
+## Drop penny stocks
+
+. . .
+
+```.p
+df = df[df.price>5]
+df.shape
+```
+
+. . .
+
+```{python}
+df = df[df.price>5]
+df.shape
+```
+
+## Drop large caps
+
+. . .
+
+```.p
+df["size_rank"] = df.marketcap.rank(ascending=False)
+df = df[df.size_rank > 500]
+```
+
+## Find profitable stocks that aren't too expensive
+
+. . .
+
+```.p
+filter1 = df.roe >= df.roe.quantile(0.7)
+filter2 = df.pb <= df.pb.quantile(0.3)
+df = df[filter1 & filter2].copy()
+ticks = df.index.to_list()
+len(ticks)
+```
+
+```{python}
+filter1 = df.roe >= df.roe.quantile(0.7)
+filter2 = df.pb <= df.pb.quantile(0.3)
+df = df[filter1 & filter2].copy()
+ticks = df.index.to_list()
+len(ticks)
+```
+
+## Create alpaca account
+
+- After logging in to Alpaca, you DO NOT need to enter name, address, etc. - that is only for real trading accounts.  
+- By clicking the Overview icon on the left toolbar, you should get to the screen on the following slide. 
+- Click on API Keys, then Regenerate to see your key and your secret key.  Copy and save them somewhere.
+
+##
+
+![](../images/alpaca1.png)
+
+## Install alpaca-py
+
+- The module alpaca-trade-api is deprecated.  Install alpaca-py instead. 
+- The docs are at [https://alpaca.markets/docs/python-sdk/getting_started.html](ttps://alpaca.markets/docs/python-sdk/getting_started.html).    
+
+## Connect to alpaca
+
+
+```.p
+from alpaca.data import StockHistoricalDataClient
+from alpaca.trading.client import TradingClient
+from alpaca.data.requests import StockLatestQuoteRequest
+from alpaca.trading.requests import MarketOrderRequest
+from alpaca.trading.enums import OrderSide, TimeInForce
+
+KEY = "your_key"
+SECRET_KEY = "your_secret_key"
+
+data_client = StockHistoricalDataClient(KEY, SECRET_KEY)
+trading_client = TradingClient(KEY, SECRET_KEY, paper=True)
+```
+
+```{python}
+from alpaca.data import StockHistoricalDataClient
+from alpaca.trading.client import TradingClient
+from alpaca.data.requests import StockLatestQuoteRequest
+from alpaca.trading.requests import MarketOrderRequest
+from alpaca.trading.enums import OrderSide, TimeInForce
+
+KEY = "PKS7I0GX04CUGYTZ4ND7"
+SECRET_KEY = "coYG5T8j3DvnJ9drddFiz3TxvAdFaqItEKw4qKYr"
+
+data_client = StockHistoricalDataClient(KEY, SECRET_KEY)
+trading_client = TradingClient(KEY, SECRET_KEY, paper=True)
+```
+
+## Get current positions
+
+. . .
+
+```.p
+positions = trading_client.get_all_positions()
+sers = [pd.Series(dict(x)) for x in positions]
+df = pd.concat(sers, axis=1)
+df.T
+```
+
+. . .
+
+```{python}
+positions = trading_client.get_all_positions()
+sers = [pd.Series(dict(x)) for x in positions]
+df = pd.concat(sers, axis=1)
+df.T
+```
+
+## Get current quotes
+
+. . .
+
+```.p
+params = StockLatestQuoteRequest(symbol_or_symbols=ticks)
+quotes = data_client.get_stock_latest_quote(params)
+
+# convert to dataframe
+sers = [pd.Series(dict(x)) for x in quotes.values()]
+df = pd.concat(sers, axis=1)
+df.columns = [x for x in quotes]
+df = df.T
+df = df.drop(columns=["symbol"])
+df.info()
+```
+
+. . .
+
+```{python}
+params = StockLatestQuoteRequest(symbol_or_symbols=ticks)
+quotes = data_client.get_stock_latest_quote(params)
+
+# convert to dataframe
+sers = [pd.Series(dict(x)) for x in quotes.values()]
+df = pd.concat(sers, axis=1)
+df.columns = [x for x in quotes]
+df = df.T
+df = df.drop(columns=["symbol"])
+df.info()
+```
+
+## Compute trades
+
+. . .
+
+```.p
+df["trade"] = df.ask_price.apply(lambda p: int(1000/p) if p !=0 else 0)
+ticks = df[df.trade>0].index.to_list()
+```
+
+```{python}
+df["trade"] = df.ask_price.apply(lambda p: int(1000/p) if p !=0 else 0)
+ticks = df[df.trade>0].index.to_list()
+```
+
+## Send trades
+
+. . .
+
+```.p
+for tick in ticks: 
+    market_order_data = MarketOrderRequest(
+        symbol=tick,
+        qty=df.trade.loc[tick],
+        side=OrderSide.BUY,
+        time_in_force=TimeInForce.DAY
+    )
+    market_order = trading_client.submit_order(
+        order_data=market_order_data
+    )
+```
