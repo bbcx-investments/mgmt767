@@ -1,8 +1,8 @@
 ## Slide Decks 
 
-[1. Alpaca](1-alpaca.html)
+[1. Alpaca](01-alpaca.html)
 
-[2. Nasdaq Data Link](2-nasdaq-data-link.html)
+[2. Nasdaq Data Link](02-nasdaq-data-link.html)
 
-[3. Green-Hand-Zhang Predictors](3-ghz-predictors.html)
+[3. Green-Hand-Zhang Predictors](03-ghz-predictors.html)
 
