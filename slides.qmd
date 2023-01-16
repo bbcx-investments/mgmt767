@@ -1,4 +1,8 @@
 ## Slide Decks 
 
-[1. A First Portfolio](1-first-portfolio.html)
+[1. Alpaca](1-alpaca.html)
+
+[2. Nasdaq Data Link](2-nasdaq-data-link.html)
+
+[3. Green-Hand-Zhang Predictors](3-ghz-predictors.html)
 

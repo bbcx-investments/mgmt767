@@ -23,7 +23,7 @@ format:
 ## Sharadar Equities Bundle
 
 - [Nasdaq Data Link / Sharadar Core US Equities Bundle](https://data.nasdaq.com/databases/SFA/data)
-- Some of the data (NYSE and Nasdaq stocks for the past few years) is in a SQL database hosted on a Rice server.
+- Data is in a SQL database hosted on a Rice server.
 - To access the server, you must be on the Rice network or the Rice VPN.  
 - To connect to the VPN see [this](https://oit.rice.edu/services/network-connectivity#:~:text=Connect%20to%20the%20VPN,to%20download%20the%20necessary%20software).
 
