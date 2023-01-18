@@ -8,3 +8,5 @@
 
 [4. Using Quandl Data](04-quandl.html)
 
+[5. Insider Trading](05-insider-trading.html)
+
