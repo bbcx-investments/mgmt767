@@ -6,3 +6,5 @@
 
 [3. Green-Hand-Zhang Database](03-ghz-database.html)
 
+[4. Using Quandl Data](04-quandl.html)
+
