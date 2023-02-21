@@ -1,0 +1,104 @@
+---
+title:  Data-Driven Investments at JGSB  <br><br><br><br><br><img src="RiceBusiness-transparent-logo-sm.png"  height=80>
+
+execute:
+  echo: false
+  jupyter: python3
+format: 
+  revealjs:
+    highlight-style: monokai
+    code-fold: true
+    code-copy: hover
+    scrollable: true
+    slide-number: true
+    preview-links: true
+    self-contained: true
+    controls: true
+    transition: fade
+    theme: [solarized, 2023.scss]
+    incremental: true
+---
+
+## 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Background courses
+
+  - 665 Python for Business Analytics*
+  - 649 Data Mining for Business Analytics
+  - 679 Machine Learning for Business Analytics
+:::
+
+
+
+::: {.column width="50%"}
+
+
+- Investments courses
+
+  - 638 Data-Driven Investments Equity*
+  - 639 Data-Driven Investments Credit*
+  - 767 Data-Driven Investments Lab
+:::
+
+::::
+
+# Equity course
+
+## Inspiration
+
+. . .
+
+![](GKX.jpg)
+
+## Data and procedures
+
+- 100+ monthly features used by GKX
+  - financial ratios and growth rates
+  - momentum, volatility, beta, market cap, volume
+  - analyst forecasts and earnings surprises
+- Industry membership
+- Machine learning (random forests, boosted forests, neural networks) $\rightarrow$ stock return predictions
+
+## = Optimized factor investing
+
+- What is the optimal way to combine factors?
+- [Factor investing at AQR](https://www.aqr.com/Learning-Center/Systematic-Equities/Systematic-Equities-A-Closer-Look?gclid=Cj0KCQiA_8OPBhDtARIsAKQu0gZS3uj9A0fdCN5eB_P-uUfY0VWr2uY9MW503bgPnO7DbQeVr2_WlxkaAlwhEALw_wcB){.external target="_blank"}
+
+## Backtests
+
+- Long best stocks and maybe short worst stocks
+- Analyze portfolio returns
+  - Sharpe ratios and drawdowns
+  - CAPM alphas and information ratios
+  - Fama-French factor attribution analysis
+- Group projects and presentations
+
+# Credit course
+
+##
+
+- ML models for default prediction
+
+# Lab course
+
+## 
+
+- Full semester (spring)
+- Prereq is either equity or credit
+- More ML (cross validation, ...)
+- New data sources (insider trades, ...)
+- Implement models at Alpaca Brokerage using python API
+- Weekly team reports on performance and model evaluations
+
+# CQA
+
+## 
+
+- Several students taking the equity, credit, and lab courses are participating in the Chicago Quantitative Alliance investment competition.
+- Run a long/short portfolio with no position > 5% and cash < 5% and no ETFs.
+- Last year, a JGSB MBA team won the competition, finishing first in all three categories: return, compliance, and presentation.
+- This year, <a href="https://www.cqa.org/current_challenge">at the 2/3 point</a>  
