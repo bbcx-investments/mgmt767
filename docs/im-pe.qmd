@@ -119,7 +119,7 @@ Build on CHS to
 
 - Several students taking the equity, credit, and lab courses are participating in the CQA investment competition.
   - Aramide Alayi, Amro Elhag, Chris Lopez
-  - Lindsey Ellertson, Daniel Enriquez
+  - Daniel Enriquez, Lauren Heckel, Dan McCarthy, Samuel Swanson
 <!-- - Run a long/short portfolio with no position > 5% and cash < 5% and no ETFs. -->
 - Run a long/short portfolio with position and cash constraints + no ETFs.
 - Last year, a JGSB MBA team won the competition!
