@@ -19,7 +19,7 @@ format:
     incremental: true
 ---
 
-## 
+## Coursework
 
 :::: {.columns}
 
@@ -52,7 +52,7 @@ format:
 
 . . .
 
-![](GKX.jpg)
+![](gkx2.png)
 
 ## Data and procedures
 
@@ -75,26 +75,80 @@ format:
 
 # Credit course
 
-##
+## Inspiration
 
-- ML models for default prediction
+. . .
+
+![](chs.png)
+
+## Objective and data
+
+- Predict public corporate bankruptcy
+- Data
+  - CHS features (profitability, leverage, cash, equity vol, relative market cap, past excess return, MB, and stock price)
+  - Expand with add'l 70+ financial analysis ratios from WRDS suite
+
+## Methods
+
+Build on CHS to 
+
+- incorporate data science techniques (L1-/L2-penalization, random forest, gradient boosting, neural nets)
+- approach problem from a data science lens (training, validation, testing)
+- produce out-of-sample estimates of default probabilities
+
+## Practical applications
+
+- forecast default
+- forecast ratings changes to identify trading opportunities
+- mispricing based on default probability assessments
 
 # Lab course
 
-## 
+## Data-Driven Investing Lab
 
 - Full semester (spring)
-- Prereq is either equity or credit
-- More ML (cross validation, ...)
-- New data sources (insider trades, ...)
+- Pre-/co-req is either equity or credit
+- More ML (cross validation, ensemble models, ...)
+- New data sources (insider trades, short interest, ...)
 - Implement models at Alpaca Brokerage using python API
-- Weekly team reports on performance and model evaluations
+- Weekly team reports on performance, model evaluations, and future research
 
-# CQA
+# Chicago Quantitative Alliance Competition
 
 ## 
 
-- Several students taking the equity, credit, and lab courses are participating in the Chicago Quantitative Alliance investment competition.
-- Run a long/short portfolio with no position > 5% and cash < 5% and no ETFs.
-- Last year, a JGSB MBA team won the competition, finishing first in all three categories: return, compliance, and presentation.
-- This year, [at the 2/3 point](https://www.cqa.org/current_challenge){target="_blank"}
+- Several students taking the equity, credit, and lab courses are participating in the CQA investment competition.
+  - Aramide Alayi, Amro Elhag, Chris Lopez
+  - Lindsey Ellertson, Daniel Enriquez
+<!-- - Run a long/short portfolio with no position > 5% and cash < 5% and no ETFs. -->
+- Run a long/short portfolio with position and cash constraints + no ETFs.
+- Last year, a JGSB MBA team won the competition!
+  - 1st in all categories: return, compliance, presentation
+  - Arun Kaipuzha, Alice Rothschild, Beau Domingue, Jon Clark, Tyler Freed
+
+<!-- [at the 2/3 point](https://www.cqa.org/current_challenge){target="_blank"} -->
+
+## This year, at the 2/3 point
+
+![](cqa_league_table.png)
+
+# Undergraduate Majors
+
+## Finance concentration
+
+In addition to the business core curriculum, finance courses include
+
+- Investments
+- Derivatives
+- Financial statement analysis
+- Advanced corporate finance
+
+. . . 
+
+Keep an eye out for these students going forward as well!
+
+## 
+
+<br><br><br><br>
+
+![](RiceBusiness-transparent-logo-sm.png){fig-align="center"}
