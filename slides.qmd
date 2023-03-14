@@ -10,3 +10,5 @@
 
 [5. Insider Trading](05-insider-trading.html)
 
+[6. Risk Management](08-risk-management.html)
+
