@@ -1,0 +1,188 @@
+Symbol,TransactionType,CompanyName,Exchange,Quantity,FXRate,Currency,SecurityType,Price,Amount,CreateDate
+COHN,Dividends,Cohen & Company Inc,US,2280,1,USD,Equities,$0.25 ,$570.00 ,03/21/2023 - 00:00
+BSVN,Dividends,Bank7 Corp,US,865,1,USD,Equities,$0.16 ,$138.40 ,03/21/2023 - 00:00
+HBAN,Dividends,"Huntington Bancshares, Inc.",US,-1437,1,USD,Equities,$0.16 ,($222.74),03/17/2023 - 00:00
+LRFC,Dividends,Logan Ridge Finance Corporation,US,1100,1,USD,Equities,$0.18 ,$198.00 ,03/17/2023 - 00:00
+ICE,Dividends,Intercontinental Exchange Inc,US,-240,1,USD,Equities,$0.42 ,($100.80),03/16/2023 - 00:00
+AIG,Dividends,American International Group Inc,US,-381,1,USD,Equities,$0.32 ,($121.92),03/16/2023 - 00:00
+SON,Market - Buy,Sonoco Products Co.,US,500,1,USD,Equities,$56.82 ,"($28,410.00)",03/10/2023 - 10:53
+FIS,Dividends,"Fidelity National Information Services, Inc.",US,-370,1,USD,Equities,$0.52 ,($192.40),03/09/2023 - 00:00
+CME,Dividends,CME Group Inc - Ordinary Shares - Class A,US,-125,1,USD,Equities,$1.10 ,($137.50),03/09/2023 - 00:00
+PEG,Dividends,Public Service Enterprise Group Inc.,US,-385,1,USD,Equities,$0.57 ,($219.45),03/09/2023 - 00:00
+SVT,Market - Buy,"Servotronics, Inc.",US,1900,1,USD,Equities,$11.85 ,"($22,515.00)",03/03/2023 - 14:37
+KOSS,Market - Sell,Koss Corp.,US,-3500,1,USD,Equities,$5.07 ,"$17,745.00 ",03/03/2023 - 14:32
+CSSE,Market - Sell,Chicken Soup for the Soul Entertainment Inc - Ordinary Shares - Class A,US,-3250,1,USD,Equities,$4.13 ,"$13,422.50 ",03/03/2023 - 14:31
+MTB,Dividends,M & T Bank Corp,US,-133,1,USD,Equities,$1.30 ,($172.90),03/03/2023 - 00:00
+GS,Dividends,"Goldman Sachs Group, Inc.",US,-62,1,USD,Equities,$2.50 ,($155.00),03/01/2023 - 00:00
+GRNT,Dividends,Granite Ridge Resources Inc - Ordinary Shares - Class A,US,2500,1,USD,Equities,$0.11 ,$275.00 ,02/28/2023 - 00:00
+BAM,Dividends,Brookfield Asset Management Inc. - Ordinary Shares - Class A,US,-870,1,USD,Equities,$0.32 ,($278.40),02/27/2023 - 00:00
+NEE,Dividends,NextEra Energy Inc,US,-281,1,USD,Equities,$0.47 ,($131.37),02/27/2023 - 00:00
+WELL,Dividends,Welltower Inc,US,-505,1,USD,Equities,$0.61 ,($308.05),02/27/2023 - 00:00
+EXC,Dividends,Exelon Corp.,US,-600,1,USD,Equities,$0.36 ,($216.00),02/24/2023 - 00:00
+RTX,Dividends,Raytheon Technologies Corporation,US,-235,1,USD,Equities,$0.55 ,($129.25),02/23/2023 - 00:00
+OWL,Dividends,Blue Owl Capital Inc - Ordinary Shares - Class A,US,-2200,1,USD,Equities,$0.13 ,($286.00),02/23/2023 - 00:00
+SO,Dividends,Southern Company,US,-341,1,USD,Equities,$0.68 ,($231.88),02/17/2023 - 00:00
+DUK,Dividends,Duke Energy Corp.,US,-240,1,USD,Equities,$1.01 ,($241.20),02/16/2023 - 00:00
+AFL,Dividends,Aflac Inc.,US,-335,1,USD,Equities,$0.42 ,($140.70),02/14/2023 - 00:00
+VLO,Dividends,Valero Energy Corp.,US,-172,1,USD,Equities,$1.02 ,($175.44),02/13/2023 - 00:00
+WEC,Dividends,WEC Energy Group Inc,US,-245,1,USD,Equities,$0.78 ,($191.10),02/13/2023 - 00:00
+F,Dividends,Ford Motor Co.,US,1660,1,USD,Equities,$0.65 ,"$1,079.00 ",02/10/2023 - 00:00
+CLB,Dividends,Core Laboratories N.V.,US,1100,1,USD,Equities,$0.01 ,$11.00 ,02/10/2023 - 00:00
+AEP,Dividends,American Electric Power Company Inc.,US,251,1,USD,Equities,$0.83 ,$208.33 ,02/09/2023 - 00:00
+AMP,Dividends,Ameriprise Financial Inc,US,-71,1,USD,Equities,$1.25 ,($88.75),02/09/2023 - 00:00
+TFC,Dividends,Truist Financial Corporation,US,-510,1,USD,Equities,$0.52 ,($265.20),02/09/2023 - 00:00
+SCHW,Dividends,Charles Schwab Corp.,US,-390,1,USD,Equities,$0.25 ,($97.50),02/09/2023 - 00:00
+MET,Dividends,Metlife Inc,US,-303,1,USD,Equities,$0.50 ,($151.50),02/06/2023 - 00:00
+COF,Dividends,Capital One Financial Corp.,US,-215,1,USD,Equities,$0.60 ,($129.00),02/03/2023 - 00:00
+WFC,Dividends,Wells Fargo & Co.,US,-708.56,1,USD,Equities,$0.30 ,($212.57),02/02/2023 - 00:00
+MS,Dividends,Morgan Stanley,US,-263,1,USD,Equities,$0.78 ,($203.83),01/30/2023 - 00:00
+BMO,Dividends,Bank of Montreal,US,-235,1,USD,Equities,$1.07 ,($252.13),01/27/2023 - 00:00
+RY,Dividends,Royal Bank Of Canada,US,-234,1,USD,Equities,$0.99 ,($231.08),01/25/2023 - 00:00
+BAM,Short Proceeds,Brookfield Asset Management Inc. - Ordinary Shares - Class A,US,-320,1,USD,Equities,$31.32 ,"$10,022.40 ",01/20/2023 - 09:32
+NVCN,Market - Sell,Neovasc Inc,US,-555,1,USD,Equities,$27.70 ,"$15,373.50 ",01/20/2023 - 09:32
+GME,Short Proceeds,Gamestop Corporation - Ordinary Shares - Class A,US,-525,1,USD,Equities,$19.11 ,"$10,032.75 ",01/20/2023 - 09:30
+D,Short Proceeds,Dominion Energy Inc,US,-167,1,USD,Equities,$61.87 ,"$10,332.29 ",01/20/2023 - 09:30
+BAC,Short Proceeds,Bank Of America Corp.,US,-300,1,USD,Equities,$33.30 ,"$9,990.00 ",01/20/2023 - 09:30
+WELL,Short Proceeds,Welltower Inc,US,-140,1,USD,Equities,$71.55 ,"$10,017.00 ",01/20/2023 - 09:30
+WFC,Short Proceeds,Wells Fargo & Co.,US,-232,1,USD,Equities,$43.07 ,"$9,992.24 ",01/20/2023 - 09:30
+BK,Dividends,Bank Of New York Mellon Corp,US,525,1,USD,Equities,$0.37 ,$194.25 ,01/20/2023 - 00:00
+VNCE,Market - Buy,Vince Holding Corp,US,3000,1,USD,Equities,$7.68 ,"($23,040.00)",01/18/2023 - 13:52
+KEQU,Market - Buy,Kewaunee Scientific Corporation,US,1380,1,USD,Equities,$16.50 ,"($22,770.00)",01/18/2023 - 13:00
+AVB,Short Proceeds,Avalonbay Communities Inc.,US,-150,1,USD,Equities,$167.87 ,"$25,180.50 ",01/13/2023 - 15:45
+AVB,Short Proceeds,Avalonbay Communities Inc.,US,-150,1,USD,Equities,$167.87 ,"$25,180.50 ",01/13/2023 - 15:44
+CKX,Market - Buy,CKX Lands Inc,US,2000,1,USD,Equities,$10.47 ,"($20,940.00)",01/13/2023 - 15:36
+LRFC,Market - Buy,Logan Ridge Finance Corporation,US,1100,1,USD,Equities,$22.90 ,"($25,190.00)",01/13/2023 - 15:33
+GDS,Market - Sell,GDS Holdings Limited - ADR,US,-573,1,USD,Equities,$25.01 ,"$14,330.73 ",01/13/2023 - 15:20
+NVCN,Market - Sell,Neovasc Inc,US,-1150,1,USD,Equities,$20.70 ,"$23,805.00 ",01/13/2023 - 15:17
+PNC,Dividends,PNC Financial Services Group,US,-141,1,USD,Equities,$1.50 ,($211.50),01/13/2023 - 00:00
+NWFL,Dividends,Norwood Financial Corp.,US,740,1,USD,Equities,$0.29 ,$214.60 ,01/12/2023 - 00:00
+TD,Dividends,Toronto Dominion Bank,US,-345,1,USD,Equities,$0.71 ,($244.71),01/05/2023 - 00:00
+JPM,Dividends,JPMorgan Chase & Co.,US,-170,1,USD,Equities,$1.00 ,($170.00),01/05/2023 - 00:00
+BNS,Dividends,Bank Of Nova Scotia,US,-457,1,USD,Equities,$0.75 ,($344.58),01/03/2023 - 00:00
+ROOT,Market - Sell,Root Inc - Ordinary Shares - Class A,US,-2950,1,USD,Equities,$4.58 ,"$13,511.00 ",12/23/2022 - 15:51
+PRTG,Market - Sell,Portage Biotech Inc,US,-3200,1,USD,Equities,$4.65 ,"$14,880.00 ",12/23/2022 - 15:51
+BSVN,Dividends,Bank7 Corp,US,865,1,USD,Equities,$0.16 ,$138.40 ,12/22/2022 - 00:00
+FARM,Market - Sell,Farmer Bros. Co.,US,-3750,1,USD,Equities,$4.91 ,"$18,412.50 ",12/16/2022 - 14:08
+HBAN,Dividends,"Huntington Bancshares, Inc.",US,-1437,1,USD,Equities,$0.16 ,($222.74),12/16/2022 - 00:00
+PFSW,Dividends,PFSWEB Inc,US,2210,1,USD,Equities,$4.50 ,"$9,945.00 ",12/16/2022 - 00:00
+ICE,Dividends,Intercontinental Exchange Inc,US,-240,1,USD,Equities,$0.38 ,($91.20),12/14/2022 - 00:00
+AIG,Dividends,American International Group Inc,US,-381,1,USD,Equities,$0.32 ,($121.92),12/14/2022 - 00:00
+QFIN,Dividends,360 DigiTech Inc - ADR,US,1800,1,USD,Equities,$0.16 ,$288.00 ,12/09/2022 - 00:00
+FIS,Dividends,"Fidelity National Information Services, Inc.",US,-370,1,USD,Equities,$0.47 ,($173.90),12/08/2022 - 00:00
+CME,Dividends,CME Group Inc - Ordinary Shares - Class A,US,-125,1,USD,Equities,$1.00 ,($125.00),12/08/2022 - 00:00
+PEG,Dividends,Public Service Enterprise Group Inc.,US,-385,1,USD,Equities,$0.54 ,($207.90),12/08/2022 - 00:00
+RLMD,Market - Sell,Relmada Therapeutics Inc,US,-3485,1,USD,Equities,$4.54 ,"$15,821.90 ",12/02/2022 - 14:57
+D,Dividends,Dominion Energy Inc,US,-335,1,USD,Equities,$0.67 ,($223.61),12/01/2022 - 00:00
+GM,Dividends,General Motors Company,US,-577,1,USD,Equities,$0.09 ,($51.93),12/01/2022 - 00:00
+BAC,Dividends,Bank Of America Corp.,US,-605,1,USD,Equities,$0.22 ,($133.10),12/01/2022 - 00:00
+GS,Dividends,"Goldman Sachs Group, Inc.",US,-62,1,USD,Equities,$2.50 ,($155.00),11/30/2022 - 00:00
+MTB,Dividends,M & T Bank Corp,US,-133,1,USD,Equities,$1.20 ,($159.60),11/30/2022 - 00:00
+GRNT,Dividends,Granite Ridge Resources Inc - Ordinary Shares - Class A,US,2500,1,USD,Equities,$0.08 ,$200.00 ,11/30/2022 - 00:00
+BAM,Dividends,Brookfield Asset Management Inc. - Ordinary Shares - Class A,US,-550,1,USD,Equities,$0.14 ,($77.00),11/29/2022 - 00:00
+NEE,Dividends,NextEra Energy Inc,US,-281,1,USD,Equities,$0.43 ,($119.43),11/23/2022 - 00:00
+KPRX,Market - Sell,Kiora Pharmaceuticals Inc,US,-3590,1,USD,Equities,$3.90 ,"$14,001.00 ",11/18/2022 - 12:56
+SO,Dividends,Southern Company,US,-341,1,USD,Equities,$0.68 ,($231.88),11/18/2022 - 00:00
+OWL,Dividends,Blue Owl Capital Inc - Ordinary Shares - Class A,US,-2200,1,USD,Equities,$0.12 ,($264.00),11/18/2022 - 00:00
+COHN,Dividends,Cohen & Company Inc,US,2280,1,USD,Equities,$0.25 ,$570.00 ,11/17/2022 - 00:00
+DUK,Dividends,Duke Energy Corp.,US,-240,1,USD,Equities,$1.01 ,($241.20),11/17/2022 - 00:00
+RTX,Dividends,Raytheon Technologies Corporation,US,-235,1,USD,Equities,$0.55 ,($129.25),11/17/2022 - 00:00
+WELL,Dividends,Welltower Inc,US,-365,1,USD,Equities,$0.61 ,($222.65),11/17/2022 - 00:00
+VLO,Dividends,Valero Energy Corp.,US,-172,1,USD,Equities,$0.98 ,($168.56),11/16/2022 - 00:00
+AFL,Dividends,Aflac Inc.,US,-335,1,USD,Equities,$0.40 ,($134.00),11/15/2022 - 00:00
+F,Dividends,Ford Motor Co.,US,1660,1,USD,Equities,$0.15 ,$249.00 ,11/14/2022 - 00:00
+EXC,Dividends,Exelon Corp.,US,-600,1,USD,Equities,$0.34 ,($202.50),11/14/2022 - 00:00
+COF,Dividends,Capital One Financial Corp.,US,-215,1,USD,Equities,$0.60 ,($129.00),11/10/2022 - 00:00
+WEC,Dividends,WEC Energy Group Inc,US,-245,1,USD,Equities,$0.73 ,($178.24),11/10/2022 - 00:00
+AEP,Dividends,American Electric Power Company Inc.,US,251,1,USD,Equities,$0.83 ,$208.33 ,11/09/2022 - 00:00
+TFC,Dividends,Truist Financial Corporation,US,-510,1,USD,Equities,$0.52 ,($265.20),11/09/2022 - 00:00
+SCHW,Dividends,Charles Schwab Corp.,US,-390,1,USD,Equities,$0.22 ,($85.80),11/09/2022 - 00:00
+MET,Dividends,Metlife Inc,US,-303,1,USD,Equities,$0.50 ,($151.50),11/07/2022 - 00:00
+NVCN,Market - Buy,Neovasc Inc,US,3340,1,USD,Equities,$6.60 ,"($22,044.00)",11/04/2022 - 15:42
+AIG,Short Proceeds,American International Group Inc,US,-381,1,USD,Equities,$57.82 ,"$22,029.42 ",11/04/2022 - 15:16
+COF,Short Proceeds,Capital One Financial Corp.,US,-215,1,USD,Equities,$101.98 ,"$21,925.70 ",11/04/2022 - 15:15
+HBAN,Short Proceeds,"Huntington Bancshares, Inc.",US,-1437,1,USD,Equities,$15.35 ,"$22,057.95 ",11/04/2022 - 15:15
+WEC,Short Proceeds,WEC Energy Group Inc,US,-245,1,USD,Equities,$90.92 ,"$22,275.40 ",11/04/2022 - 15:15
+SO,Short Proceeds,Southern Company,US,-341,1,USD,Equities,$64.63 ,"$22,038.83 ",11/04/2022 - 15:14
+NEE,Short Proceeds,NextEra Energy Inc,US,-281,1,USD,Equities,$78.35 ,"$22,016.35 ",11/04/2022 - 15:13
+RTX,Short Proceeds,Raytheon Technologies Corporation,US,-235,1,USD,Equities,$94.94 ,"$22,310.90 ",11/04/2022 - 15:13
+LVS,Short Proceeds,Las Vegas Sands Corp,US,-582,1,USD,Equities,$40.02 ,"$23,291.64 ",11/04/2022 - 15:12
+GM,Short Proceeds,General Motors Company,US,-577,1,USD,Equities,$38.97 ,"$22,485.69 ",11/04/2022 - 15:12
+EXC,Short Proceeds,Exelon Corp.,US,-600,1,USD,Equities,$37.08 ,"$22,248.00 ",11/04/2022 - 15:12
+AMP,Short Proceeds,Ameriprise Financial Inc,US,-71,1,USD,Equities,$313.10 ,"$22,230.10 ",11/04/2022 - 15:11
+DUK,Short Proceeds,Duke Energy Corp.,US,-240,1,USD,Equities,$93.03 ,"$22,327.20 ",11/04/2022 - 15:11
+FARM,Market - Buy,Farmer Bros. Co.,US,3750,1,USD,Equities,$5.47 ,"($20,512.50)",11/04/2022 - 15:01
+AFL,Short Proceeds,Aflac Inc.,US,-335,1,USD,Equities,$66.91 ,"$22,414.85 ",11/04/2022 - 15:01
+CVV,Market - Buy,CVD Equipment Corp.,US,3600,1,USD,Equities,$6.27 ,"($22,572.00)",11/04/2022 - 14:59
+AEP,Market - Buy,American Electric Power Company Inc.,US,251,1,USD,Equities,$89.04 ,"($22,349.04)",11/04/2022 - 14:59
+PRTG,Market - Buy,Portage Biotech Inc,US,3200,1,USD,Equities,$6.99 ,"($22,368.00)",11/04/2022 - 14:58
+MET,Short Proceeds,Metlife Inc,US,-303,1,USD,Equities,$73.94 ,"$22,403.82 ",11/04/2022 - 14:58
+GS,Short Proceeds,"Goldman Sachs Group, Inc.",US,-62,1,USD,Equities,$356.61 ,"$22,109.82 ",11/04/2022 - 14:57
+CTGO,Market - Buy,Contango Ore Inc,US,1000,1,USD,Equities,$24.58 ,"($24,580.00)",11/04/2022 - 14:57
+STRS,Market - Buy,Stratus Properties Inc.,US,820,1,USD,Equities,$28.90 ,"($23,698.00)",11/04/2022 - 14:57
+CM,Short Proceeds,Canadian Imperial Bank Of Commerce,US,-480,1,USD,Equities,$46.19 ,"$22,171.20 ",11/04/2022 - 14:56
+BNS,Short Proceeds,Bank Of Nova Scotia,US,-457,1,USD,Equities,$48.63 ,"$22,223.91 ",11/04/2022 - 14:56
+PCG,Short Proceeds,PG&E Corp.,US,-1464,1,USD,Equities,$15.19 ,"$22,238.16 ",11/04/2022 - 14:53
+BK,Market - Buy,Bank Of New York Mellon Corp,US,525,1,USD,Equities,$42.24 ,"($22,176.00)",11/04/2022 - 14:52
+WFC,Short Proceeds,Wells Fargo & Co.,US,-476.56,1,USD,Equities,$46.62 ,"$22,217.23 ",11/04/2022 - 14:52
+VLO,Short Proceeds,Valero Energy Corp.,US,-172,1,USD,Equities,$128.89 ,"$22,169.08 ",11/04/2022 - 14:51
+WELL,Short Proceeds,Welltower Inc,US,-365,1,USD,Equities,$60.93 ,"$22,239.45 ",11/04/2022 - 14:50
+TFC,Short Proceeds,Truist Financial Corporation,US,-510,1,USD,Equities,$43.40 ,"$22,134.00 ",11/04/2022 - 14:50
+USB,Market - Buy,U.S. Bancorp.,US,530,1,USD,Equities,$42.62 ,"($22,588.60)",11/04/2022 - 14:50
+TD,Short Proceeds,Toronto Dominion Bank,US,-345,1,USD,Equities,$64.95 ,"$22,407.75 ",11/04/2022 - 14:49
+STT,Short Proceeds,State Street Corp.,US,-295,1,USD,Equities,$74.88 ,"$22,089.60 ",11/04/2022 - 14:49
+SCHW,Short Proceeds,Charles Schwab Corp.,US,-390,1,USD,Equities,$79.11 ,"$30,852.90 ",11/04/2022 - 14:49
+RY,Short Proceeds,Royal Bank Of Canada,US,-234,1,USD,Equities,$94.20 ,"$22,042.80 ",11/04/2022 - 14:48
+PNC,Short Proceeds,PNC Financial Services Group,US,-141,1,USD,Equities,$155.78 ,"$21,964.98 ",11/04/2022 - 14:47
+PEG,Short Proceeds,Public Service Enterprise Group Inc.,US,-385,1,USD,Equities,$57.31 ,"$22,064.35 ",11/04/2022 - 14:45
+MTB,Short Proceeds,M & T Bank Corp,US,-133,1,USD,Equities,$167.05 ,"$22,217.65 ",11/04/2022 - 14:44
+MS,Short Proceeds,Morgan Stanley,US,-263,1,USD,Equities,$84.32 ,"$22,176.16 ",11/04/2022 - 14:44
+JPM,Short Proceeds,JPMorgan Chase & Co.,US,-170,1,USD,Equities,$130.16 ,"$22,127.20 ",11/04/2022 - 14:43
+FIS,Short Proceeds,"Fidelity National Information Services, Inc.",US,-370,1,USD,Equities,$59.97 ,"$22,188.90 ",11/04/2022 - 14:43
+F,Market - Buy,Ford Motor Co.,US,1660,1,USD,Equities,$13.42 ,"($22,277.20)",11/04/2022 - 14:43
+D,Short Proceeds,Dominion Energy Inc,US,-335,1,USD,Equities,$66.76 ,"$22,364.60 ",11/04/2022 - 14:41
+BAM,Short Proceeds,Brookfield Asset Management Inc. - Ordinary Shares - Class A,US,-550,1,USD,Equities,$39.94 ,"$21,967.00 ",11/04/2022 - 14:41
+BMO,Short Proceeds,Bank of Montreal,US,-235,1,USD,Equities,$93.56 ,"$21,986.60 ",11/04/2022 - 14:39
+BAC,Short Proceeds,Bank Of America Corp.,US,-605,1,USD,Equities,$36.54 ,"$22,106.70 ",11/04/2022 - 14:38
+WLDN,Market - Buy,Willdan Group Inc,US,1400,1,USD,Equities,$16.24 ,"($22,736.00)",11/04/2022 - 14:32
+MRNA,Short Proceeds,Moderna Inc,US,-145,1,USD,Equities,$156.72 ,"$22,724.40 ",11/04/2022 - 14:31
+BNTX,Market - Buy,BioNTech SE - ADR,US,145,1,USD,Equities,$152.25 ,"($22,076.25)",11/04/2022 - 14:31
+CSSE,Market - Buy,Chicken Soup for the Soul Entertainment Inc - Ordinary Shares - Class A,US,3250,1,USD,Equities,$6.49 ,"($21,092.50)",11/04/2022 - 14:30
+TSRI,Market - Buy,"TSR, Inc.",US,3030,1,USD,Equities,$7.30 ,"($22,119.00)",11/04/2022 - 14:30
+ICE,Short Proceeds,Intercontinental Exchange Inc,US,-240,1,USD,Equities,$94.90 ,"$22,776.00 ",11/04/2022 - 14:30
+KPRX,Market - Buy,Kiora Pharmaceuticals Inc,US,3590,1,USD,Equities,$5.96 ,"($21,396.40)",11/04/2022 - 14:29
+CME,Short Proceeds,CME Group Inc - Ordinary Shares - Class A,US,-125,1,USD,Equities,$169.69 ,"$21,211.25 ",11/04/2022 - 14:29
+OWL,Short Proceeds,Blue Owl Capital Inc - Ordinary Shares - Class A,US,-2200,1,USD,Equities,$10.15 ,"$22,330.00 ",11/04/2022 - 14:26
+BRID,Market - Buy,Bridgford Foods Corporation,US,1949,1,USD,Equities,$11.59 ,"($22,588.91)",11/04/2022 - 14:01
+LCID,Short Proceeds,Lucid Group Inc,US,-1660,1,USD,Equities,$13.32 ,"$22,111.20 ",11/04/2022 - 14:01
+ROOT,Market - Buy,Root Inc - Ordinary Shares - Class A,US,2950,1,USD,Equities,$7.21 ,"($21,269.50)",11/04/2022 - 14:01
+KRTX,Short Proceeds,Karuna Therapeutics Inc,US,-106,1,USD,Equities,$210.65 ,"$22,328.90 ",11/04/2022 - 14:00
+CLB,Market - Buy,Core Laboratories N.V.,US,1100,1,USD,Equities,$20.61 ,"($22,671.00)",11/04/2022 - 13:59
+GME,Short Proceeds,Gamestop Corporation - Ordinary Shares - Class A,US,-850,1,USD,Equities,$25.74 ,"$21,879.00 ",11/04/2022 - 13:57
+SPNE,Market - Buy,SeaSpine Holdings Corp,US,3601,1,USD,Equities,$6.06 ,"($21,822.06)",11/04/2022 - 13:53
+COHN,Market - Buy,Cohen & Company Inc,US,2280,1,USD,Equities,$9.40 ,"($21,432.00)",11/04/2022 - 13:52
+GDS,Market - Buy,GDS Holdings Limited - ADR,US,2400,1,USD,Equities,$9.21 ,"($22,104.00)",11/04/2022 - 13:50
+AIRT,Market - Buy,Air T Inc,US,1000,1,USD,Equities,$22.00 ,"($22,000.00)",11/04/2022 - 13:50
+BSVN,Market - Buy,Bank7 Corp,US,865,1,USD,Equities,$25.40 ,"($21,971.00)",11/04/2022 - 13:49
+GLSI,Market - Buy,Greenwich LifeSciences Inc,US,2410,1,USD,Equities,$9.19 ,"($22,147.90)",11/04/2022 - 13:49
+KOSS,Market - Buy,Koss Corp.,US,3500,1,USD,Equities,$6.35 ,"($22,225.00)",11/04/2022 - 13:47
+PFSW,Market - Buy,PFSWEB Inc,US,2210,1,USD,Equities,$9.76 ,"($21,569.60)",11/04/2022 - 13:45
+NWFL,Market - Buy,Norwood Financial Corp.,US,740,1,USD,Equities,$29.75 ,"($22,015.00)",11/04/2022 - 13:45
+PVBC,Market - Buy,Provident Bancorp Inc,US,1770,1,USD,Equities,$12.52 ,"($22,160.40)",11/04/2022 - 13:41
+WLFC,Market - Buy,Willis Lease Finance Corp.,US,570,1,USD,Equities,$39.00 ,"($22,230.00)",11/04/2022 - 12:58
+GRPN,Market - Buy,Groupon Inc,US,3200,1,USD,Equities,$6.88 ,"($22,016.00)",11/04/2022 - 12:57
+UTI,Market - Buy,Universal Technical Institute Inc,US,3250,1,USD,Equities,$6.84 ,"($22,230.00)",11/04/2022 - 12:56
+SRTS,Market - Buy,Sensus Healthcare Inc,US,3090,1,USD,Equities,$7.16 ,"($22,124.40)",11/04/2022 - 12:55
+ALCO,Market - Buy,Alico Inc.,US,700,1,USD,Equities,$31.38 ,"($21,966.00)",11/04/2022 - 12:51
+FLL,Market - Buy,"Full House Resorts, Inc.",US,3250,1,USD,Equities,$6.80 ,"($22,100.00)",11/04/2022 - 12:51
+ATOM,Market - Buy,Atomera Inc,US,2500,1,USD,Equities,$8.75 ,"($21,875.00)",11/04/2022 - 12:47
+NOAH,Market - Buy,Noah Holdings Limited - ADR,US,1620,1,USD,Equities,$13.66 ,"($22,129.20)",11/04/2022 - 12:46
+GRVY,Market - Buy,Gravity Co Ltd - ADR,US,510,1,USD,Equities,$43.51 ,"($22,190.10)",11/04/2022 - 12:44
+AGIO,Market - Buy,Agios Pharmaceuticals Inc,US,850,1,USD,Equities,$25.74 ,"($21,879.00)",11/04/2022 - 12:43
+FFHL,Market - Buy,Fuwei Films (Holdings) Co,US,3000,1,USD,Equities,$7.39 ,"($22,170.00)",11/04/2022 - 12:42
+SOHU,Market - Buy,Sohu.com Ltd. - ADR,US,1430,1,USD,Equities,$15.45 ,"($22,093.50)",11/04/2022 - 12:42
+SHEN,Market - Buy,Shenandoah Telecommunications Co.,US,1185,1,USD,Equities,$18.70 ,"($22,159.50)",11/04/2022 - 12:41
+ACMR,Market - Buy,ACM Research Inc - Ordinary Shares - Class A,US,3365,1,USD,Equities,$6.47 ,"($21,771.55)",11/04/2022 - 12:40
+CNTY,Market - Buy,Century Casinos Inc.,US,3140,1,USD,Equities,$7.06 ,"($22,168.40)",11/04/2022 - 12:39
+GRNT,Market - Buy,Granite Ridge Resources Inc - Ordinary Shares - Class A,US,2500,1,USD,Equities,$8.80 ,"($22,000.00)",11/04/2022 - 12:38
+QFIN,Market - Buy,360 DigiTech Inc - ADR,US,1800,1,USD,Equities,$12.32 ,"($22,176.00)",11/04/2022 - 12:37
+RLMD,Market - Buy,Relmada Therapeutics Inc,US,3485,1,USD,Equities,$6.37 ,"($22,199.45)",11/04/2022 - 12:31
