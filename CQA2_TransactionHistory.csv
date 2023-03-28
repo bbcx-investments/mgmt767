@@ -1,0 +1,34 @@
+Symbol,TransactionType,CompanyName,Exchange,Quantity,FXRate,Currency,SecurityType,Price,Amount,CreateDate
+EQR,Dividends,Equity Residential Properties Trust,US,-329,1,USD,Equities,$0.66 ,($217.96),03/24/2023 - 00:00
+IFF,Dividends,International Flavors & Fragrances Inc.,US,-305,1,USD,Equities,$0.81 ,($247.05),03/23/2023 - 00:00
+SRE,Dividends,Sempra Energy,US,-132,1,USD,Equities,$1.19 ,($157.08),03/21/2023 - 00:00
+BSVN,Dividends,Bank7 Corp,US,1167,1,USD,Equities,$0.16 ,$186.72 ,03/21/2023 - 00:00
+ATOM,Market - Buy,Atomera Inc,US,1000,1,USD,Equities,$6.34 ,"($6,340.00)",03/17/2023 - 15:37
+FRC,Market - Buy,First Republic Bank,US,1000,1,USD,Equities,$23.95 ,"($23,950.00)",03/17/2023 - 15:35
+KALV,Market - Sell,KalVista Pharmaceuticals Inc,US,-6007,1,USD,Equities,$7.40 ,"$44,451.80 ",03/17/2023 - 15:34
+LCID,Short Proceeds,Lucid Group Inc,US,2882,1,USD,Equities,$7.59 ,"($40,607.38)",03/17/2023 - 15:32
+LCID,Market - Cover,Lucid Group Inc,US,2882,1,USD,Equities,$7.59 ,"$18,733.00 ",03/17/2023 - 15:32
+RIG,Short Proceeds,Transocean Ltd,US,6000,1,USD,Equities,$5.61 ,"($38,730.00)",03/17/2023 - 15:27
+RIG,Market - Cover,Transocean Ltd,US,6000,1,USD,Equities,$5.61 ,"$5,070.00 ",03/17/2023 - 15:27
+DTE,Dividends,DTE Energy Co.,US,-178,1,USD,Equities,$0.95 ,($169.55),03/17/2023 - 00:00
+LRFC,Dividends,Logan Ridge Finance Corporation,US,1040,1,USD,Equities,$0.18 ,$187.20 ,03/17/2023 - 00:00
+TSM,Dividends,Taiwan Semiconductor Manufacturing - ADR,US,370,1,USD,Equities,$0.45 ,$166.05 ,03/16/2023 - 00:00
+PLD,Dividends,Prologis Inc,US,-373,1,USD,Equities,$0.87 ,($324.51),03/16/2023 - 00:00
+CTRA,Dividends,Coterra Energy Inc,US,-344,1,USD,Equities,$0.37 ,($127.28),03/15/2023 - 00:00
+DLR,Dividends,Digital Realty Trust Inc,US,-307,1,USD,Equities,$1.22 ,($374.54),03/14/2023 - 00:00
+EMN,Dividends,Eastman Chemical Co,US,300,1,USD,Equities,$0.79 ,$237.00 ,03/14/2023 - 00:00
+DVN,Dividends,Devon Energy Corp.,US,-130,1,USD,Equities,$0.20 ,($26.00),03/14/2023 - 00:00
+ROST,Dividends,"Ross Stores, Inc.",US,-200,1,USD,Equities,$0.34 ,($67.00),03/13/2023 - 00:00
+RAND,Dividends,Rand Capital Corp.,US,590,1,USD,Equities,$0.20 ,$118.00 ,03/10/2023 - 00:00
+CME,Dividends,CME Group Inc - Ordinary Shares - Class A,US,-150,1,USD,Equities,$1.10 ,($165.00),03/09/2023 - 00:00
+PEG,Dividends,Public Service Enterprise Group Inc.,US,-691,1,USD,Equities,$0.57 ,($393.87),03/09/2023 - 00:00
+RF,Dividends,Regions Financial Corp.,US,-100,1,USD,Equities,$0.20 ,($20.00),03/09/2023 - 00:00
+GE,Dividends,General Electric Co.,US,-124,1,USD,Equities,$0.08 ,($9.92),03/06/2023 - 00:00
+LVS,Short Proceeds,Las Vegas Sands Corp,US,746,1,USD,Equities,$60.65 ,"($29,847.46)",03/03/2023 - 12:56
+LVS,Market - Cover,Las Vegas Sands Corp,US,746,1,USD,Equities,$60.65 ,"($15,397.44)",03/03/2023 - 12:56
+ADI,Short Proceeds,Analog Devices Inc.,US,50,1,USD,Equities,$185.10 ,"($9,255.00)",03/03/2023 - 12:51
+PXD,Dividends,Pioneer Natural Resources Co.,US,-39,1,USD,Equities,$4.48 ,($174.72),03/03/2023 - 00:00
+O,Dividends,Realty Income Corp.,US,-158,1,USD,Equities,$0.25 ,($40.21),02/28/2023 - 00:00
+NEE,Dividends,NextEra Energy Inc,US,-380,1,USD,Equities,$0.47 ,($177.65),02/27/2023 - 00:00
+EL,Dividends,"Estee Lauder Cos., Inc. - Ordinary Shares - Class A",US,40,1,USD,Equities,$0.66 ,$26.40 ,02/27/2023 - 00:00
+WELL,Dividends,Welltower Inc,US,-492,1,USD,Equities,$0.61 ,($300.12),02/27/2023 - 00:00
